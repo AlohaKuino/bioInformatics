@@ -1,0 +1,119 @@
+########################################
+# Program: water
+# Rundate: Sun 20 Apr 2025 19:14:55
+# Commandline: water
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/098254/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/098254/.bsequence
+#    -brief
+#    -outfile outfile
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1020
+# Identity:     780/1020 (76.5%)
+# Similarity:   780/1020 (76.5%)
+# Gaps:          42/1020 ( 4.1%)
+# Score: 2925.5
+# 
+#
+#=======================================
+
+                  85 ATGTTGACTCTAACTCGCATCCGCACTGTGTCCTATGAAGTCAGGAGTAC    134
+                     |||.|||.|||.||||...||...||||||||||||||||.||.||.|.|
+                   1 ATGCTGAGTCTGACTCCTGTCTTAACTGTGTCCTATGAAGCCAAGATTTC     50
+
+                 135 ATTTCTGTTCATTTCAGTCCTGGAGTTTGCAGTGGGGTTTCTGACCAATG    184
+                     ||||||||||.||||||.|.||||||||||||||||..|.|||.||||.|
+                  51 ATTTCTGTTCCTTTCAGCCATGGAGTTTGCAGTGGGAATCCTGGCCAACG    100
+
+                 185 CCTTCGTTTTCTTGGTGAATTTTTGGGATGTAGTGAAGAGGCAGGCACTG    234
+                     |||||.||.|||||||.|||.||||||||||.||.||.|.||||.|..||
+                 101 CCTTCATTGTCTTGGTAAATGTTTGGGATGTGGTAAAAAAGCAGCCCTTG    150
+
+                 235 AGCAACAGTGATTGTGTGCTGCTGTGTCTCAGCATCAGCCGGCTTTTCCT    284
+                     |.||||.||||....|..|||||||||||||||||||..|||||||||||
+                 151 AACAACTGTGACATCGCACTGCTGTGTCTCAGCATCACTCGGCTTTTCCT    200
+
+                 285 GCATGGACTGCTGTTCCTGAGTGCTATCCAGCTTACCCACTTCCAGAAGT    334
+                     |||.||.||.|||.|.|||..||||||.|||||..||..|||||||.||.
+                 201 GCAGGGCCTTCTGCTTCTGGATGCTATTCAGCTCGCCTGCTTCCAGCAGA    250
+
+                 335 TGAGTGAACCACTGAACCACAGCTACCAAGCCATCATCATGCTATGGATG    384
+                     |||..||.|||||||.|||||.|||||||||||||.|||..||.||||||
+                 251 TGAAAGACCCACTGAGCCACAACTACCAAGCCATCCTCACTCTCTGGATG    300
+
+                 385 ATTGCAAACCAAGCCAACCTCTGGCTTGCTGCCTGCCTCAGCCTGCTTTA    434
+                     |||||||||||||..|.|||||||||.||||||||||||||.||.||.||
+                 301 ATTGCAAACCAAGTGAGCCTCTGGCTGGCTGCCTGCCTCAGTCTCCTCTA    350
+
+                 435 CTGCTCCAAGCTCATCCGTTTCTCTCACACC-TTCCTGATCTGCTTG--G    481
+                     ||||||||||.|..||||.|||||||||||| ||||   .||.|.||  |
+                 351 CTGCTCCAAGATTGTCCGCTTCTCTCACACCTTTCC---ACTCCATGTAG    397
+
+                 482 CAAGCTGGGTCTCCAGGAAGATCTC-CCAGATGCTCCTGGGTATTATTCT    530
+                     ||||||||||||||||| ||||.|| .||||||||.||.|.|.||.||||
+                 398 CAAGCTGGGTCTCCAGG-AGATTTCTTCAGATGCTTCTAGTTGTTCTTCT    446
+
+                 531 TTGCTCCTGCATCTGCACTGTCCTCTGTGTTTGGTGCTTTTTTAGCAGAC    580
+                     |..|||||||||||||||||.|||.|||.|.|||..|||||||.|||||.
+                 447 TCTCTCCTGCATCTGCACTGCCCTTTGTTTGTGGGACTTTTTTTGCAGAT    496
+
+                 581 CTCACTTCACAGTCACAACTGTGCTATTCATGAATA----ACAATACAAG    626
+                     ||||||.|||.||||||.||.|.||...|.||||.|    |.|||     
+                 497 CTCACTCCACGGTCACATCTCTACTGCACCTGAACAGCACAGAAT-----    541
+
+                 627 GCTCAACTGGCAGATTAAAGATCTCAATTTATTTTATTCCTTTCTCTTCT    676
+                       |||..|.|||.|||..|.|.||||||||.|||||.||.|||.||||||
+                 542 --TCAGTTTGCAAATTGCAAAACTCAATTTCTTTTACTCGTTTATCTTCT    589
+
+                 677 GCTATCTGTGGTCTGTGCCTCCTTTCCTATTGTTTCTGGTTTCTTCTGGG    726
+                     ||.||.||.|.|||||.||.||||..|||...||.||||||||.|| |||
+                 590 GCAATGTGGGCTCTGTCCCCCCTTCTCTAGCTTTCCTGGTTTCCTC-GGG    638
+
+                 727 A-TGCTGACTGTCTCCCTGGGAAGGCACATGAGGACAATGAAGGTCTATA    775
+                     | |||||..|.||||||||||.||.|||||||||||.||||||..|.|.|
+                 639 AGTGCTGGTTATCTCCCTGGGGAGTCACATGAGGACTATGAAGTCCCAAA    688
+
+                 776 CCAGAAACTCTCGTGACCCCAGCCTGGAGGCCCACATTAAAGCCCTCAAG    825
+                     ||||.|.||||.|||||||||||||.|||||||||||.|.||||.|||..
+                 689 CCAGCAGCTCTGGTGACCCCAGCCTTGAGGCCCACATCAGAGCCATCATA    738
+
+                 826 TCTCTTGTCTCCTTTTTCTGCTTCTTTGTGATATCATCCTGTGCTGCCTT    875
+                     |.|||..|||||||||||||.||.|..|||.|.||||.|||||||||.||
+                 739 TTTCTGATCTCCTTTTTCTGTTTTTACGTGGTGTCATTCTGTGCTGCTTT    788
+
+                 876 CATCTCTGTGCCCCTACTGATTCTGTGGCGCGACAAAATAGGG----GTG    921
+                     .||.||..|.|||.|||||||.||.||||   ||||.| ||||    |||
+                 789 AATATCAATACCCTTACTGATGCTATGGC---ACAATA-AGGGGGGAGTG    834
+
+                 922 ATGGTTTGTGTTGGGATAATGGCAGCTTGTCCCTCTGGGCATGCAGCCAT    971
+                     |||.|||||.|.|||||.||||||||||||||.||.||.|||||||||||
+                 835 ATGATTTGTATAGGGATGATGGCAGCTTGTCCTTCGGGACATGCAGCCAT    884
+
+                 972 CCTGATCTCAGGCAATGCCAAGTTGAGGAGAGCTGT-GATGACCATTCTG   1020
+                     ||||||.|||||||||||.|||.|||||||.||..| || ||||||.||.
+                 885 CCTGATATCAGGCAATGCTAAGCTGAGGAGGGCCATAGA-GACCATGCTA    933
+
+                1021 CTCTGGGCTCAGAGCAGCCTGAAGGTAAGAGCCGACCACAAGGCAGATT-   1069
+                     .|||||..|||.|||||.|..|||||.|||.|.|.||||||||    || 
+                 934 TTCTGGTTTCAAAGCAGGCAAAAGGTGAGACCAGTCCACAAGG----TTC    979
+
+                1070 ---CCCGGACACTGTGCTGA   1086
+                        ||.|||||||   ||||
+                 980 CTCCCAGGACACT---CTGA    996
+
+
+#---------------------------------------
+#---------------------------------------
