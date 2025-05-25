@@ -1,0 +1,24 @@
+~~невероятное количество рабочей информации~~
+[redun] | JOB STATUS 2025/05/26 04:49:41
+[redun] | TASK    PENDING RUNNING  FAILED  CACHED    DONE   TOTAL
+[redun] | 
+[redun] | ALL           0       1       0       0       0       1
+[redun] | main          0       1       0       0       0       1
+[redun] 
+[redun] 
+[Samtools flagstat] Running: samtools flagstat data/results/aligned.sorted.bam > data/results/flagstat.txt
+[Parse] Percent mapped: 99.49%
+[PLOT] Received percent_mapped = 99.49
+Mapping quality: OK (99.49% mapped)
+[Plotting] Mapping percent = 99.49
+[MAIN] Plot path: data/results/mapping_quality.png
+[redun] 
+[redun] | JOB STATUS 2025/05/26 04:49:50
+[redun] | TASK    PENDING RUNNING  FAILED  CACHED    DONE   TOTAL
+[redun] | 
+[redun] | ALL           0       0       0       0       1       1
+[redun] | main          0       0       0       0       1       1
+[redun] 
+[redun] 
+[redun] Execution duration: 729.16 seconds
+'Pipeline completed. Plot saved to: data/results/mapping_quality.png'
