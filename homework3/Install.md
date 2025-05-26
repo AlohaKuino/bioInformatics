@@ -22,7 +22,7 @@ git clone https://github.com/AlohaKuino/bioInformatics.git
 ```
 **6. Перейдите в папку homework3**
 ```bash
-cd /homework3
+cd /bioInformatics/homework3
 ```
 **7. Запустим простой пайплайн через redun** 
 ```bash
