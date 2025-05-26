@@ -24,7 +24,28 @@ git clone https://github.com/AlohaKuino/bioInformatics.git
 ```bash
 cd /bioInformatics/homework3
 ```
-**7. Запустим простой пайплайн через redun** 
+
+**7. Скачайте FASTQ-файл и геном:**
+
+Скачайте риды (например, через wget или вручную через браузер):
+
+```bash
+wget "https://www.ebi.ac.uk/ena/browser/api/fasta/SRR490124?download=true" -O data/SRR490124.fastq
+```
+Поместите геном e_coli_k12.fa в папку config/reference. Если он ещё не скачан — скачайте его и поместите туда вручную или так:
+
+```bash
+mkdir -p config/reference
+mv e_coli_k12.fa config/reference/
+```
+**8. Проведите индексацию генома:**
+
+```bash
+bwa index config/reference/e_coli_k12.fa
+```
+
+
+**9. Запустим простой пайплайн через redun** 
 ```bash
 cd scripts
 redun run hello_pipeline.py main 
@@ -51,7 +72,7 @@ tasks needing namespace: hello_pipeline.py:add, hello_pipeline.py:main
 [redun] Execution duration: 0.03 seconds
 5
 ```
-**8. Попробуем что-то посерьезнее и запустим основной пайплайн**
+**10. Попробуем что-то посерьезнее и запустим основной пайплайн**
 ```bash
 cd ..
 redun run pipeline.py main
